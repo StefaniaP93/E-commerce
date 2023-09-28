@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="https://js.stripe.com/v3"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<!-- <script>
+    // Initialize Stripe with your test publishable key
+    var stripe = Stripe('your_test_publishable_key');
+  
+    // Create a test payment method
+    stripe.createPaymentMethod({
+      type: 'card',
+      card: {
+        number: '4242424242424242', // Use a Stripe test card number
+        exp_month: 12,              // Use a valid expiration month
+        exp_year: 25,               // Use a valid expiration year
+        cvc: '123',                 // Use a valid CVC
+      },
+    }).then(function(result) {
+      // Handle the result (e.g., display a success message or handle errors)
+      if (result.error) {
+        // Handle errors
+      } else {
+        // Payment method created successfully
+        // You can then use this payment method for testing purposes
+      }
+    });
+  </script> -->
