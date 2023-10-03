@@ -25,8 +25,6 @@ SECRET_KEY = 'django-insecure-1*&@ac(s%gj7d2-hmr#zw90ctf9ypfq)5=)emn0lz)rwd15cx0
 
 # settings.py
 
-#STRIPE_PUBLIC_KEY = 'pk_test_51NuaJiG6N7VfEP8vaUiSpvwCbAJUMQ1C0u4wLGXARGdDc4hXlIPV3YZ9qhsixKOSRjfb612GrP3zh3NqesjXynEw00esJQk3d9'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
