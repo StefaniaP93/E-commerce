@@ -31,7 +31,7 @@ export default {
         getProducts() {
             axios.get('/api/v1/product/')
                 .then(response => {
-                    this.products = response.data // Corretto: utilizza "this.products" invece di "this.product"
+                    this.products = response.data
                 })
                 .catch(error => {
                     console.log(error)
